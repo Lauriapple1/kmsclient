@@ -12,5 +12,6 @@ setup(
     keywords=['kms', 'aws', 'key', 'management', 'system', 'client', 'encryption'],
     classifiers=[],
     entry_points={'console_scripts': 'kmsclient = kmsclient.cli:main'},
-    install_requires=['clickclick' >= 0.10, 'pyperclip', 'boto3']
+    install_requires=['clickclick' >= 0.10, 'pyperclip', 'boto3'],
+    license='Apache License 2.0'
 )
