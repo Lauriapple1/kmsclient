@@ -19,6 +19,6 @@ The values input and returned are in base 64 UTF-8
 
 ### Options 
 
--ak AWS access key
--sk AWS secret key
--c Copy to clipboard
+    -ak AWS access key
+    -sk AWS secret key
+    -c Copy to clipboard
